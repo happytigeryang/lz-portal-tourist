@@ -1,0 +1,13 @@
+    
+<script src="{PROJECT_VERSION}assets/vendors/oidc-client/oidc-client.min.js"></script>
+<script>
+var mgr = new Oidc.UserManager({ response_mode: "query" });
+mgr.signinRedirectCallback().then(() => {
+window.history.replaceState({},
+window.document.title,
+window.location.origin);
+window.location = "{PROJECT_VERSION}";
+}, error => {
+console.error(error);
+});
+</script>

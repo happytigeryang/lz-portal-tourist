@@ -1,0 +1,9 @@
+{
+  "login": {
+    "loginName": "login Name",
+    "password": "password",
+    "msg_LoginName": "Please input your username!",
+    "msg_Password": "Please input your Password!",
+    "btn_Login": "Log in"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "login": {
+    "loginName": "账号",
+    "password": "密码",
+    "msg_LoginName": "Please input your username!",
+    "msg_Password": "Please input your Password!",
+    "btn_Login": "Log in"
+  }
+}

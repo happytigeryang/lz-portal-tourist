@@ -1,0 +1,6 @@
+{
+  "common": {
+    "welcome": "啦啦",
+    "getName": "你好，我是{{name}}"
+  }
+}

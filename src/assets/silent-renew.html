@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+
+<body>
+  <script src="{PROJECT_VERSION}assets/vendors/oidc-client/oidc-client.min.js"></script>
+  <script>
+    // var ssoConfig = Object.assign({}, window.NEG.SSOConfig);
+    // ssoConfig.userStore = new window.WebStorageStateStore({ store: window.localStorage });
+    var mgr = new Oidc.UserManager();
+    mgr.signinSilentCallback();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+ {
+   "common": {
+     "welcome": "welcome to this app",
+     "getName": "hello I am {{name}}"
+   }
+ }
